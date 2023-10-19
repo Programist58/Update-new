@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #c46710;
+}
+
+.BG{
+    margin-top: -2px;
+    margin-left: -8px;
+}
+.text-bg{
+    font-size: 100%;
+    margin-top: 0px;
+}
+
+/* Топ */
+.topnav {
+    background-color: #3091b8;
+    overflow: hidden;
+    font-size: 200px;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 101.3%;
+}
+
+/* Кнопки в топе */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 125px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color:#ffffff;
+    color: aqua
+}
+
+/* Конец топа */
+.topnav a.active {
+    background-color:#2a2c45;
+    color: white;
+}
+/* ////////////////////////////////////////////////////////*/
+.logo{
+    margin-top: -44px;
+    margin-left: 0px;
+}
+/* Текст */
+.txt
+{
+    font-family: 'Oswald', sans-serif;
+margin-top: -23px;
+font-size: 70px;
+color: white;
+}
+
+.txt1
+{
+     font-family: 'Oswald', sans-serif;
+margin-top: -23px;
+font-size: 108%;
+color: white;
+}
+
+.blog
+{
+    margin-top: 50px;
+    margin-left: auto;
+}
+.blog2
+{
+    margin-top: -254px;
+    margin-left: 450px;
+}
+.blog3
+{
+    margin-top: -254px;
+    margin-left: 900px;
+}
+
+
+
+
+.txt2
+{
+     font-family: 'Oswald', sans-serif;
+margin-top: 40px;
+margin-left: 10px;
+font-size: 108%;
+color: white;
+}
+
+.blog_2
+{
+    margin-top: 85px;
+    margin-left: 1083px;
+}
+
+  
+.txt-contact
+{ border-radius: 4px;
+    width: 101.43%;
+    background-color:#24acb1;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 150px;
+    margin-left: -10px;
+    font-size:400%;
+    color: white
+    
+} 
+.txt-con{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 42%;
+    font-family: 'Oswald', sans-serif;
+}
+.gov{
+    margin-top: -323px;
+    margin-left: 800px;
+}
+.txt0
+{
+    font-family: 'Oswald', sans-serif;
+margin-top: -20px;
+font-size:400%;
+color: white;
+} 
+.txt00
+{
+    font-family: 'Oswald', sans-serif;
+margin-top: -50px;
+font-size:100%;
+color: white;
+} 
+/* 3 Картинки о компании нижнии*/
+
+.one
+{
+margin-top: 65px;
+margin-left: 31px;
+}
+
+.duo
+{
+margin-top: -205px;
+margin-left: 470px;
+}
+
+
+.trio
+{
+margin-top: -205px;
+margin-left: 890px;
+}
+
+
+/* 3 Картинки о компании верхнии*/
+.ones
+{
+margin-top: 40px;
+margin-left: 31px;
+}
+
+.duos
+{
+margin-top: -205px;
+margin-left: 470px;
+}
+
+
+.trios
+{
+margin-top: -205px;
+margin-left: 890px;
+}
+/* ///////////////////////////////////////////////////////*/
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+
+#myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg5:hover {opacity: 0.7;}
+/* Анимация к фоткам с рамками затемнее при на ведении ниже отвечающаяя за модель*/
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+/* ///////////////////////////////////////////////////////*/
+/* Конец модели*/
+
